@@ -7,19 +7,25 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container">
-            <a href="index.html" class="logo">Clear Spike</a>
-            <ul class="nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="set.html">Clear Spike Set</a></li>
-                <li><a href="apparel.html">Apparel</a></li>
-                <li><a href="accesories.html">Accessories</a></li>
-                <li><a href="commmunity.html">Community</a></li>
-                <li><a href="contact.html">Contact us</a></li>
-
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Clear Spike Logo" style="width: 100px; height: auto;">
+        </a>
+        <ul>
+            <li><a href="set.html">Clear Spike Set</a></li>
+            <li><a href="apparel.html">Apparel</a></li>
+            <li><a href="accesories.html">Accessories</a></li>
+            <li><a href="commmunity.html">Community</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </header>
+    <div id="navbar"></div>
+    <section class="banner"></section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+    </script>
 </body>
 </html>
