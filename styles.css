@@ -39,27 +39,32 @@ header ul li a{
     left: -100px;
     font-size: 18px;
 }
+
+
 header.sticky{
-    padding: 0px 100px;
+    padding: 0px 0px;
     background: #fff;
 }
 header.sticky .logo{
     color: #e23c52;
-    left: -100px;
 }
 header.sticky ul li a{
     color: #e23c52;
-    left: -200px;
 }
-.banner{
-    position: relative;
+
+.top-video{
+    position: absolute;
+    padding: 100px 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
     width: 100%;
-    height: 100vh;
-    background-color: aqua;
-    background-size: cover;
 }
+
 #navbar{
+    position: absolute;
     background-color: white;
     height: 100px;
-    width: 100%;
+    width: 110%;
+    left: -10px;
 }
