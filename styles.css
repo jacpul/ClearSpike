@@ -39,8 +39,6 @@ header ul li a{
     left: -100px;
     font-size: 18px;
 }
-
-
 header.sticky{
     padding: 0px 0px;
     background: #fff;
@@ -52,14 +50,6 @@ header.sticky ul li a{
     color: #e23c52;
 }
 
-.top-video{
-    position: absolute;
-    padding: 100px 0;
-    right: 0;
-    top: 0;
-    z-index: -1;
-    width: 100%;
-}
 
 #navbar{
     position: absolute;
@@ -67,4 +57,50 @@ header.sticky ul li a{
     height: 100px;
     width: 110%;
     left: -10px;
+}
+
+.top-video{
+    position: relative;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+}
+.video-placeholder {
+    height: 1vh; 
+}
+.video-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video-text {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 3em;
+    text-align: right;
+    height: 70%;
+    width: 75%;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.smaller-text {
+    font-size: 50%; /* Change this to make the text smaller or larger */
+    color: white; /* Change the color as needed */
+    text-align: right;
+    width: 96%;
+}
+
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.image-row img {
+    width: 33.1%;
+    height: auto;
 }
