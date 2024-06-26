@@ -88,7 +88,7 @@ header.sticky ul li a{
     left: 75%;
     transform: translate(-50%, -50%);
     display: inline-block;
-    background-color: #f44336;
+    background-color: #e23c52;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -133,6 +133,19 @@ header.sticky ul li a{
     width: 100%;
     height: auto;
 }
+.image-text {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #e23c52;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
 
 .shop-now-button {
     position: absolute;
@@ -140,7 +153,7 @@ header.sticky ul li a{
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
-    background-color: #f44336;
+    background-color: #e23c52;
     color: white;
     padding: 15px 32px;
     text-align: center;
