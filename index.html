@@ -6,29 +6,48 @@
     <title>Clear Spike</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div id="navbar"></div>
+
     <script type="text/javascript">
         window.addEventListener("scroll", function(){
             var header = document.querySelector("header");
             header.classList.toggle("sticky", window.scrollY > 0);
         })
     </script>
+
     <div class="video-container">
-        <video autoplay loop muted plays-inline class="top-video">
+        <video autoplay loop muted plays-inline class="top-video" disablePictureInPicture>
             <source src="images/TopVid.mp4" type="video/mp4">
         </video>
+        <a href="spikeset.html" class="shop-now-video">Shop Now</a>
         <div class="video-text">
             CLEAR SPIKE IS HERE
             <div class="smaller-text">NOW SHIPPING WORLDWIDE</div>
         </div>
     </div>
+    
     <div class="video-placeholder"></div>
+
     <div class="image-row">
-        <img src="images/balls.jpg" alt="balls">
-        <img src="images/net.jpg" alt="net">
-        <img src="images/apparel.jpg" alt="apparel">
+        <div class="image-row">
+            <div class="image-container">
+                <img src="images/net.jpg" alt="net">
+                <a href="spikeset.html" class="shop-now-button">Shop Now</a>
+            </div>
+            <div class="image-container">
+                <img src="images/balls.jpg" alt="apparel">
+                <a href="spikeset.html" class="shop-now-button">Shop Now</a>
+            </div>
+            <div class="image-container">
+                <img src="images/apparel.jpg" alt="net">
+                <a href="spikeset.html" class="shop-now-button">Shop Now</a>
+            </div>
+            </div>
+        </div>
     </div>
+
     <header>
         <a href="index.html" class="logo">
             <img src="images/logo.png" alt="Clear Spike Logo" style="width: 100px; height: auto;">
