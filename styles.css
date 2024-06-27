@@ -340,6 +340,7 @@ header.sticky ul li a{
     left: -230px; 
     color: black;
     text-align: left;
+    font-weight: normal;
 }
 #accordian{
     position: relative;
@@ -400,4 +401,37 @@ header.sticky ul li a{
 #accordian input[type="checkbox"]:checked + label + .content{
     max-height: 500px;
     transition: max-height 1s;
+}
+
+.row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e23c52;
+    color: white;
+    height: 180px;
+}
+.footer-col1{
+    margin-top: 25px;
+    flex-basis: 33.33%;
+}
+.footer-col2, .footer-col3 {
+    margin-top: 18px;
+    flex-basis: 33.33%;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-col2 ul, .footer-col3 ul {
+    line-height: 1.5; /* adjust as needed */
+    list-style-type: none;
+    font-size: 85%;
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+    font-weight: normal; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
