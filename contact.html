@@ -31,27 +31,32 @@
     </header>
 
     <div class="balls-banner"></div>
-
-    <h1>Contact Form</h1>
-    <form class="contact-form">
-        <div class="contact-row">
-            <div class="column">
-                <input type="text" id="name" name="name" placeholder="Your Name">
+    <div class="contact-container">
+        <h1>Contact Form</h1>
+        <form class="contact-form" action="http://localhost:3000/send-email" method="post">
+            <div class="contact-row">
+                <div class="column">
+                    <input type="text" id="name" name="name" placeholder="Your Name">
+                </div>
+                <div class="column">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="column">
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                </div>
+                <div class="column">
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
             </div>
-            <div class="column">
-                <input type="email" id="email" name="email" placeholder="Your Email">
-            </div>
-            <div class="column">
-                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
-            </div>
-            <div class="column">
-                <textarea id="message" name="message" placeholder="Your Message"></textarea>
-            </div>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="contact-info">
+            <p>Need Customer Support?</p>
+            <p>Inquire about event sponsorships?</p>
+            <p>Just want to say hi?</p>
+            <p>Fill out the form and we'll get back to you shortly!</p>
         </div>
-        <input type="submit" value="Submit">
-    </form>
-
-
+    </div>
 
 
 
@@ -85,6 +90,6 @@
         </div>
         <div class="sub-footer"></div>
     </footer>
-
+    <script src="app.js"></script>
 </body>
 </html>
