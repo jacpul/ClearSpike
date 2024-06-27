@@ -271,3 +271,50 @@ header.sticky ul li a{
     border-radius: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.bar-image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.bar-image {
+    position: relative;
+    top: -85px;
+    height: auto;
+    width: 100%;
+}
+.bar-contactus {
+    position: relative;
+    top: -250px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: inline-block;
+    background-color: white;
+    color: #e23c52;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bar-text {
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    top: 12%;
+    left: 815px;
+    width: 500px;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.bar-smaller-text {
+    position: relative;
+    font-size: 50%;
+    left: -38px; 
+    color: white;
+    text-align: left;
+}
