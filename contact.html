@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Spike</title>
+    <link rel="stylesheet" href="contactstyles.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > -1);
+        })
+    </script>
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="images/wordandlogo.png" alt="Clear Spike Logo" style="width: auto; height: 100px;">
+        </a>
+        <ul>
+            <li><a href="spikeset.html">Clear Spike Set</a></li>
+            <li><a href="apparel.html">Apparel</a></li>
+            <li><a href="accesories.html">Accessories</a></li>
+            <li><a href="commmunity.html">Community</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </header>
+
+    <div class="balls-banner"></div>
+
+    <h1>Contact Form</h1>
+    <form class="contact-form">
+        <div class="contact-row">
+            <div class="column">
+                <input type="text" id="name" name="name" placeholder="Your Name">
+            </div>
+            <div class="column">
+                <input type="email" id="email" name="email" placeholder="Your Email">
+            </div>
+            <div class="column">
+                <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+            </div>
+            <div class="column">
+                <textarea id="message" name="message" placeholder="Your Message"></textarea>
+            </div>
+        </div>
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="row">
+            <div class="footer-col1">
+                <ul>
+                    <img src="images/wordandlogo inverse.png" alt="Clear Spike Logo" style="width: auto; height: 100px;">
+                </ul>
+            </div>
+            <div class="footer-col2">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="returns.html">Returns & Claims</a></li>
+                </ul>
+            </div>
+            <div class="footer-col3">
+                <h4>Socials</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com/premier.spike" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/premier.spike/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/@PremierSpike" target="_blank">YouTube</a></li>
+                    <li><a href="https://www.tiktok.com/@premier.spike" target="_blank">TikTok</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sub-footer"></div>
+    </footer>
+
+</body>
+</html>

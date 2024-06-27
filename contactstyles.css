@@ -1,0 +1,205 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 10px 30px 15px rgba(0, 0, 0, 0.5);
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    margin: 0 auto;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 30px;
+    text-decoration: none;
+    color: #e23c52;
+    letter-spacing: 2px;
+    font-weight: 500;
+    left: -100px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header.sticky{
+    padding: 0px 0px;
+    background: #fff;
+}
+header.sticky .logo{
+    color: #e23c52;
+}
+header.sticky ul li a{
+    color: #e23c52;
+}
+#navbar{
+    position: absolute;
+    background-color: white;
+    height: 60px;
+    width: 110%;
+    left: -10px;
+}
+
+
+
+.balls-banner {
+    position: relative;
+    background-image: url('images/balls.jpg');
+    height: 300px; /* adjust as needed */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+
+
+h1 {
+    text-align: left;
+    margin-left: 10%;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold; 
+    font-style: italic;
+}
+.contact-form .contact-row {
+    margin-left: 10vw;
+    margin-right: 40vw;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.contact-form .column {
+    flex: 1;
+    margin-right: 10px;
+}
+.contact-form .column:last-child {
+    margin-right: 0;
+}
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+#message::placeholder {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px; /* adjust as needed */
+}
+#name, #email, #phone {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 46vw;
+    height: 1.5vw;
+    margin-bottom: 25px;
+}
+#message {
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 46vw;
+    height: 10vw;
+}
+.contact-form input[type="submit"] {
+    margin-top: 10px;
+    margin-left: 10vw;
+    padding: 10px 20px;
+    background-color: #e23c52;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 47vw;
+    height: 2vw;
+    opacity: 0.8;
+}
+.contact-form input[type="submit"]:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    margin-top: auto;
+}
+.row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e23c52;
+    color: white;
+    height: 180px;
+}
+.footer-col1{
+    margin-top: 25px;
+    flex-basis: 33.33%;
+}
+.footer-col2, .footer-col3 {
+    margin-top: 18px;
+    flex-basis: 33.33%;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-col2 ul, .footer-col3 ul {
+    line-height: 1.5; /* adjust as needed */
+    list-style-type: none;
+    font-size: 85%;
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+    font-weight: normal; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
