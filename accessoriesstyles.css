@@ -1,0 +1,277 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #b3b3b3;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 10px 30px 15px rgba(0, 0, 0, 0.5);
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    margin: 0 auto;
+}
+header ul li{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 30px;
+    text-decoration: none;
+    color: #e23c52;
+    letter-spacing: 2px;
+    font-weight: 500;
+    left: -100px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header.sticky{
+    padding: 0px 0px;
+    background: #fff;
+}
+header.sticky .logo{
+    color: #e23c52;
+}
+header.sticky ul li a{
+    color: #e23c52;
+}
+#navbar{
+    position: absolute;
+    background-color: white;
+    height: 60px;
+    width: 110%;
+    left: -10px;
+}
+
+.balls-banner {
+    position: relative;
+    background-image: url('images/net4.avif');
+    height: 500px; /* adjust as needed */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.balls-banner .banner-text {
+    margin-top: 270px;
+    margin-left: -500px;
+    color: #fff; /* Adjust text color as needed */
+    font-size: 35px; /* Adjust font size as needed */
+    text-align: center;
+    max-width: 80%; /* Adjust width as needed */
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.shop-now-button {
+    position: absolute;
+    top: 80%;
+    left: 230px;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    background-color: #e23c52;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.apparel-container{
+    display: flex;
+    height: 1500px;
+}
+.item-apparel-container img {
+    margin-left: 7px;
+    width: 450px;
+    height: 500px;
+    margin-bottom: 200px;
+}
+
+.item-apparel-container {
+    position: relative; 
+}
+.item-apparel-container .app1, .item-apparel-container .app1-2 {
+    transition: opacity 0.3s ease;
+}
+.item-apparel-container .app1-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 450px;
+    height: 500px;
+    opacity: 0;
+    pointer-events: none;
+}
+.item-apparel-container .app1:hover + .app1-2, .item-apparel-container .app1-2:hover {
+    opacity: 1;
+    pointer-events: auto;
+}
+.item-apparel-container .app1:hover {
+    opacity: 0;
+}
+.item-apparel-container .app2, .item-apparel-container .app2-1 {
+    transition: opacity 0.3s ease;
+}
+.item-apparel-container .app2-1 {
+    position: absolute;
+    top: 0;
+    left: 460px;
+    width: 450px;
+    height: 500px;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 10; /* Ensure app2-1 is above app2 */
+}
+.item-apparel-container .app2:hover + .app2-1, .item-apparel-container .app2-1:hover {
+    opacity: 1;
+    pointer-events: auto;
+}
+.item-apparel-container .app2:hover {
+    opacity: 0;
+}
+
+.image-text-container p {
+    position: absolute;
+    color: black; /* Adjust text color as needed */
+    text-align: center; /* Center the text below the image */
+    margin-top: -990px; /* Space between the image and the text */
+    margin-left: 160px;
+    font-weight: bold; 
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-text-container p1 {
+    position: absolute;
+    color: black; /* Adjust text color as needed */
+    text-align: center; /* Center the text below the image */
+    margin-top: -990px; /* Space between the image and the text */
+    margin-left: 500px;
+    font-weight: bold; 
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-text-container p3 {
+    position: absolute;
+    color: black; /* Adjust text color as needed */
+    text-align: center; /* Center the text below the image */
+    margin-top: -990px; /* Space between the image and the text */
+    margin-left: 1065px;
+    font-weight: bold; 
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-text-container p4 {
+    position: absolute;
+    color: black; /* Adjust text color as needed */
+    text-align: center; /* Center the text below the image */
+    margin-top: -990px; /* Space between the image and the text */
+    margin-left: 1525px;
+    font-weight: bold; 
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-text-container p5 {
+    position: absolute;
+    color: black; /* Adjust text color as needed */
+    text-align: center; /* Center the text below the image */
+    margin-top: -290px; /* Space between the image and the text */
+    margin-left: 1545px;
+    font-weight: bold; 
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-text-container p6 {
+    position: absolute;
+    color: black; /* Adjust text color as needed */
+    text-align: center; /* Center the text below the image */
+    margin-top: -290px; /* Space between the image and the text */
+    margin-left: 1080px;
+    font-weight: bold; 
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-text-container p7 {
+    position: absolute;
+    color: black; /* Adjust text color as needed */
+    text-align: center; /* Center the text below the image */
+    margin-top: -290px; /* Space between the image and the text */
+    margin-left: 580px;
+    font-weight: bold; 
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.image-text-container p2 {
+    position: absolute;
+    color: black; /* Adjust text color as needed */
+    text-align: center; /* Center the text below the image */
+    margin-top: -290px; /* Space between the image and the text */
+    margin-left: 180px;
+    font-weight: bold; 
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.footer {
+    margin-top: auto;
+}
+.row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e23c52;
+    color: white;
+    height: 180px;
+}
+.footer-col1{
+    margin-top: 25px;
+    flex-basis: 33.33%;
+}
+.footer-col2, .footer-col3 {
+    margin-top: 18px;
+    flex-basis: 33.33%;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footer-col2 ul, .footer-col3 ul {
+    line-height: 1.5; /* adjust as needed */
+    list-style-type: none;
+    font-size: 85%;
+    padding: 0;
+    margin: 0;
+    margin-top: -10px;
+    font-weight: normal; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
