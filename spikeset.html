@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        html, body {
+            overflow-x: hidden;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Spike</title>
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="spikesetstyles.css">
+</head>
+
+<body>
+    <div id="navbar"></div>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > -1);
+        })
+    </script>
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="images/wordandlogo.png" alt="Clear Spike Logo" style="width: auto; height: 100px;">
+        </a>
+        <ul>
+            <li><a href="spikeset.html">Clear Spike Set</a></li>
+            <li><a href="apparel.html">Apparel</a></li>
+            <li><a href="accesories.html">Accessories</a></li>
+            <li><a href="commmunity.html">Community</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+        </ul>
+    </header>
+    <main>
+        <div class="ba-container">
+            <div class="ba-image-container">
+                <img src="images/before.png" class="before-image ba-slider-image">
+                <img src="images/after.png" class="after-image ba-slider-image">
+                <input type="range" min="0" max="100" value="50" step="1" class="ba-slider">
+                <div class="ba-slider-line"></div>
+                <div class="ba-slider-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="row">
+            <div class="footer-col1">
+                <ul>
+                    <img src="images/wordandlogo inverse.png" alt="Clear Spike Logo" style="width: auto; height: 100px;">
+                </ul>
+            </div>
+            <div class="footer-col2">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="returns.html">Returns & Claims</a></li>
+                </ul>
+            </div>
+            <div class="footer-col3">
+                <h4>Socials</h4>
+                <ul>
+                    <li><a href="https://www.facebook.com/premier.spike" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/premier.spike/" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.youtube.com/@PremierSpike" target="_blank">YouTube</a></li>
+                    <li><a href="https://www.tiktok.com/@premier.spike" target="_blank">TikTok</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sub-footer"></div>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

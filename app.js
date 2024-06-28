@@ -51,3 +51,22 @@ function nextImage(index) {
 window.onload = function() {
     nextImage(0);
 };
+
+const container = document.querySelector('.ba-container');
+document.querySelector('.ba-slider').addEventListener('input', (e) => {
+    container.style.setProperty('--position', `${e.target.value}%`);
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const sliderLine = document.querySelector('.ba-slider-line');
+    const imageContainer = document.querySelector('.ba-image-container');
+
+    function matchHeights() {
+        const containerHeight = imageContainer.offsetHeight;
+        sliderLine.style.height = `${containerHeight}px`;
+    }
+
+    // Match heights initially and on window resize
+    matchHeights();
+    window.addEventListener('resize', matchHeights);
+});
