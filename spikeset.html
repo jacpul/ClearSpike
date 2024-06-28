@@ -9,7 +9,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clear Spike</title>
-    <script src="app.js" defer></script>
+    <script src="spikeset.html" defer></script>
     <link rel="stylesheet" href="spikesetstyles.css">
 </head>
 
@@ -31,12 +31,124 @@
             <li><a href="spikeset.html">Clear Spike Set</a></li>
             <li><a href="apparel.html">Apparel</a></li>
             <li><a href="accesories.html">Accessories</a></li>
-            <li><a href="commmunity.html">Community</a></li>
             <li><a href="contact.html">Contact us</a></li>
         </ul>
     </header>
 
     <main>
+
+        <div class="product-short-description rte"><p class="p1">Unleash the fun at your next outdoor gathering with the Premier Spike Kit, the pinnacle of roundnet equipment. Perfect for the backyard, beach, tailgating events, camping adventures, and more!&nbsp; This kit is designed for easy learning and endless enjoyment. Roundnet, often described as a blend of volleyball and 4-square, is engaging and simple to pick up, so you can start spiking the ball in no time!<span style="text-decoration: underline;"><b></b></span></p>
+            <p class="p1"><span style="text-decoration: underline;"><b>Kit Features:</b></span></p>
+            <ul class="ul1">
+            <li class="li1">
+            <span class="s1"></span><b>Innovative Design:</b> The Premier Spike kit is engineered to avoid the common issues of twisting, turning, bending, or breaking experienced with other brands</li>
+            <li class="li1">
+            <span class="s1"></span><b>Portable and Convenient:</b> Despite its sturdy build, the kit is designed to be easily disassembled and packed into the included carrying bag, making it the ideal travel companion for any outdoor activity.</li>
+            </ul>
+            <p class="p1"><span style="text-decoration: underline;"><b>Complete Kit Includes:</b>&nbsp;</span></p>
+            <ul class="ul1">
+            <li class="li1">
+            <span class="s1"></span><b>The Set:</b> Features 5 rims, 5 legs, and netting.</li>
+            <li class="li1">
+            <span class="s1"></span><b>2 Grippy Balls:</b> Offer superior grip and control, enhancing your game to allow for precise spikes and serves.</li>
+            <li class="li1">
+            <span class="s1"></span><b>Court Measuring Line:</b> Easily set up a standard roundnet court with the included measuring line for serving and a no-hit-zone.</li>
+            </ul>
+            <p class="p1">Whether you are new to roundnet or a seasoned player, the Premier Spike Kit delivers the ultimate game experience. Get ready to serve, spike, and dive into action with the highest quality roundnet set on the market!</p>
+            <p class="p1">The Premier Spike Kit is approved by the International Roundnet Federation and meets the required guidelines for tournament equipment.</p>
+        </div>
+
+        <div class="button-container">
+            <button onclick="button1Clicked()" class="selected">
+                <img src="images/net.jpg">
+            </button>
+            <button onclick="button2Clicked()">
+                <img src="images/balls.jpg">
+            </button>
+            <button onclick="button3Clicked()">
+                <img src="images/img1.webp">
+            </button>
+            <button onclick="button4Clicked()">
+                <img src="images/img2.webp">
+            </button>
+            <button onclick="button5Clicked()">
+                <img src="images/img3.webp">
+            </button>
+        </div>
+
+    <div id="image-display-area"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var buttons = document.querySelectorAll('button');
+        
+            buttons.forEach(function(button) {
+                button.addEventListener('click', function() {
+                    var displayArea = document.getElementById('image-display-area');
+        
+                    // Clear the display area before adding a new image
+                    displayArea.innerHTML = '';
+        
+                    var newImg = document.createElement('img');
+                    var buttonImg = button.querySelector('img');
+                    if (buttonImg) {
+                        newImg.src = buttonImg.src;
+        
+                        // Add the CSS class to the new image
+                        newImg.className = 'image-display-area';
+        
+                        displayArea.appendChild(newImg);
+                    }
+                });
+            });
+
+                        // Find and click the button with the "net" image
+            for (let button of buttons) {
+                let img = button.querySelector('img[src="images/net.jpg"]');
+                if (img) {
+                    button.click(); // Programmatically click the button
+                    break; // Exit the loop once the button is found and clicked
+                }
+            }
+        });
+        </script>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const images = document.querySelectorAll('button img');
+            
+                images.forEach(img => {
+                    img.addEventListener('click', function() {
+                        // Remove active class from all images
+                        images.forEach(i => i.classList.remove('active-img'));
+                        // Add active class to clicked image
+                        this.classList.add('active-img');
+                    });
+                });
+            });
+            </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div class="split1-screen-container">
             <img src="images/snaprim.webp" class="split1-image-side">
             <div class="split1-text-side">

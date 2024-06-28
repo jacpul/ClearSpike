@@ -1,5 +1,6 @@
 body {
     overflow-x: hidden;
+    background-color: #b3b3b3;
 }
 header{
     position: fixed;
@@ -260,15 +261,15 @@ header.sticky ul li a{
     text-align: center;
     font-family: serif;
 }
+
 .slider1-shop-now {
     position: relative;
-    top: 420px;
-    left: -375px;
+    top: 380px;
+    left: -385px;
     display: block;
     transform: translate(-50%, -50%);
     background-color: white;
     color: #e23c52;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -276,6 +277,9 @@ header.sticky ul li a{
     border: none;
     border-radius: 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 120px; /* Adjust the width as needed */
+    height: 30px;
+    padding-top: 10px;
 }
 
 

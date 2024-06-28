@@ -5,6 +5,7 @@ body {
     display: grid;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #b3b3b3;
 }
 header{
     position: fixed;
@@ -69,10 +70,60 @@ header.sticky ul li a{
     left: -10px;
 }
 
+.button-container{
+    margin-top: 150px;
+}
+button {
+    display: flex;
+    align-items: start;
+    border: none;
+    background: none; /* Removes the default background */
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+button:focus {
+    outline: none; /* Removes the outline on focus for a cleaner look */
+}
+button img{
+    width: 100px;
+    height: 120px;
+}
+.active-img {
+    border: 3px solid black; /* Example border style */
+}
+.image-display-area {
+    position: absolute;
+    width: auto; /* Example size */
+    height: 656px; /* Maintain aspect ratio */
+    top: 160px; /* Example position from the top */
+    left: 220px; /* Example position from the left */
+}
+
+
+
+.product-short-description {
+    position: absolute;
+    width: 50vw; /* Full width */
+    height: 620px; /* Set the height */
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    background: none;
+    resize: none; /* Prevent resizing */
+    margin-top: 150px;
+    margin-left: 900px;
+    pointer-events: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal; 
+    font-size: 15px;
+    line-height: 2;
+}
+
 
 
 .split1-screen-container {
-    margin-top: 300px;
+    margin-top: 100px;
     display: flex;
     width: 100vw;
     height: 620px;
