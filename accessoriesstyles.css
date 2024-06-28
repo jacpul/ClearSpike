@@ -164,7 +164,7 @@ header.sticky ul li a{
     color: black; /* Adjust text color as needed */
     text-align: center; /* Center the text below the image */
     margin-top: -990px; /* Space between the image and the text */
-    margin-left: 160px;
+    margin-left: 100px;
     font-weight: bold; 
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -174,7 +174,7 @@ header.sticky ul li a{
     color: black; /* Adjust text color as needed */
     text-align: center; /* Center the text below the image */
     margin-top: -990px; /* Space between the image and the text */
-    margin-left: 500px;
+    margin-left: 575px;
     font-weight: bold; 
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -199,42 +199,12 @@ header.sticky ul li a{
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.image-text-container p5 {
-    position: absolute;
-    color: black; /* Adjust text color as needed */
-    text-align: center; /* Center the text below the image */
-    margin-top: -290px; /* Space between the image and the text */
-    margin-left: 1545px;
-    font-weight: bold; 
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.image-text-container p6 {
-    position: absolute;
-    color: black; /* Adjust text color as needed */
-    text-align: center; /* Center the text below the image */
-    margin-top: -290px; /* Space between the image and the text */
-    margin-left: 1080px;
-    font-weight: bold; 
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.image-text-container p7 {
-    position: absolute;
-    color: black; /* Adjust text color as needed */
-    text-align: center; /* Center the text below the image */
-    margin-top: -290px; /* Space between the image and the text */
-    margin-left: 580px;
-    font-weight: bold; 
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 .image-text-container p2 {
     position: absolute;
     color: black; /* Adjust text color as needed */
     text-align: center; /* Center the text below the image */
     margin-top: -290px; /* Space between the image and the text */
-    margin-left: 180px;
+    margin-left: 40px;
     font-weight: bold; 
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
