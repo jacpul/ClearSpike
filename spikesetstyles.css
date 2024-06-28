@@ -71,12 +71,157 @@ header.sticky ul li a{
 
 
 
+.split1-screen-container {
+    margin-top: 300px;
+    display: flex;
+    width: 100vw;
+    height: 620px;
+    align-items: center; /* Centers children vertically */
+}
+.split1-image-side, .split1-text-side {
+    width: 50%;
+    height: 100%;
+}
+.split1-text-side {
+    background-color: #e23c52; /* Set your desired background color for the text side */
+}
+.split1-text-section {
+    color: white;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    padding-top: 200px;
+    margin-left: 35px;
+}
+.split1-smaller-text{
+    color: white;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 0; /* Adds some space between text sections */
+    font-size: 20px;
+    margin-left: 35px;
+}
+.split2-screen-container {
+    display: flex;
+    width: 100vw;
+    height: 620px;
+    align-items: center; /* Centers children vertically */
+}
+.split2-text-side, .split2-image-side {
+    width: 50%;
+    height: 100%;
+}
+.split2-text-side {
+    background-color: white; /* Set your desired background color for the text side */
+}
+.split2-text-section {
+    color: #e23c52;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    padding-top: 200px;
+    margin-left: 35px;
+}
+.split2-smaller-text{
+    color: #e23c52;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 0; /* Adds some space between text sections */
+    font-size: 20px;
+    margin-left: 35px;
+}
+.split3-screen-container {
+    display: flex;
+    width: 100vw;
+    height: 620px;
+    align-items: center; /* Centers children vertically */
+}
+.split3-text-side, .split3-image-side {
+    width: 50%;
+    height: 100%;
+}
+.split3-text-side {
+    background-color: #e23c52; /* Set your desired background color for the text side */
+}
+.split3-text-section {
+    color: white;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    padding-top: 200px;
+    margin-left: 35px;
+}
+.split3-smaller-text{
+    color: white;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 0; /* Adds some space between text sections */
+    font-size: 20px;
+    margin-left: 35px;
+    margin-right: 30px;
+}
+.split4-screen-container {
+    display: flex;
+    width: 100vw;
+    height: 620px;
+    align-items: center; /* Centers children vertically */
+}
+.split4-text-side, .split4-image-side {
+    width: 50%;
+    height: 100%;
+}
+.split4-text-side {
+    background-color: white; /* Set your desired background color for the text side */
+}
+.split4-text-section {
+    color: #e23c52;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    padding-top: 200px;
+    margin-left: 35px;
+}
+.split4-smaller-text{
+    color: #e23c52;
+    font-weight: bold; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px 0; /* Adds some space between text sections */
+    font-size: 20px;
+    margin-left: 35px;
+}
+
+.scrolling-text_inner {
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.scrolling-text_inner > div {
+    display: inline-block;
+    animation: scroll-text 45s linear infinite;
+    font-weight: bold; 
+    color: white;
+    background-color: #e23c52;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+  
+@keyframes scroll-text {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-80%);
+    }
+}
+
 img {
     width: 75vw;
     height: auto;
 }
 .ba-container{
-    margin-top: 300px;
+    margin-top: 215px;
     display: grid; 
     place-content: center;
     overflow: hidden;
@@ -117,7 +262,7 @@ img {
     background-color: #fff;
     left: var(--position);
     transform: translateX(-50%);
-    pointer-events: auto;
+    pointer-events: none;
 }
 .ba-slider-button{
     position: absolute;
@@ -134,21 +279,6 @@ img {
     pointer-events: none;
     box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.5);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
