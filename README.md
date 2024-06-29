@@ -5,14 +5,15 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a>About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a>Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-start">Usage</a>
+      <a>Usage</a>
     </li>
+    <li><a>Built With</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -60,7 +61,20 @@ To view the website you dont need to do anything other than download the file
 If you want the contact form functionality  you need to create a file called .env with the following text:
 EMAIL_USER="example@mail.com"
 EMAIL_APP_PASS="password"  
+
 Once you have done this you just need to install and run npm. Then you can just run "node .\sendEmail.js" and you will have a fully functional contact us page.
+
+## What I learned
+
+I coded this entire project line by line. I of course used stackoverflow, youtube videos, and some AI aswell. 
+I learned alot about UI/UX spacing and efficiency in reusing code. The first pages took ages to create,
+but once I started being able to copy and paste some classes my speed grew exponentially.
+
+If I were to do this project again I would definetly use more Flex and Grid options. For some reason
+I avoided using them at the start. I am very proud of the home page, the set page, and the contact us page.
+They took along time to create but if I had to do it again I know I could do it in less then a quarter of the time.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Contact
 
