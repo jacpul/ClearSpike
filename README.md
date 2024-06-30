@@ -13,7 +13,8 @@
     <li>
       <a>Usage</a>
     </li>
-    <li><a>Built With</a></li>
+    <li><a>What I Learned</a></li>
+    <li><a>Some Other Photos / Videos</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -76,6 +77,15 @@ They took along time to create but if I had to do it again I know I could do it 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## Some Other Photos / Videos
+
+![b6a02783974f9d65dea202d4cee98dce-ezgif com-video-to-gif-converter](https://github.com/jacpul/ClearSpike/assets/153958932/5cced269-c2f3-4cb9-b1ec-33aa223b72f2)
+
+![ac63f731f96d228900fb037f771e33b1](https://github.com/jacpul/ClearSpike/assets/153958932/bad208ee-2fd1-444b-bcfd-68f688a277ae)
+
+![48433c81bce72e2aa625b4da3177a9bf](https://github.com/jacpul/ClearSpike/assets/153958932/50d15d3c-f77f-4c89-9cfc-0fc25552e536)
+
+![412ed273f6ef116b1d34d948aa4c80f1](https://github.com/jacpul/ClearSpike/assets/153958932/35d475af-e317-4e11-9afa-00de640f6695)
 ## Contact
 
 Jace Pulkrabek - jace.pulkrabek@gmail.com
